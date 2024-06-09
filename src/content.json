@@ -1633,14 +1633,6 @@
       "issueNumber": 446
     },
     {
-      "title": "テスト複数行test",
-      "date": "2024-06-28",
-      "runner": "thinca",
-      "url": null,
-      "githubUser": "thinca",
-      "issueNumber": 1
-    },
-    {
       "title": "Meguro.vim #24 を開催しました",
       "date": "2024-07-29",
       "runner": "thinca",
