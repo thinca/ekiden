@@ -29,8 +29,9 @@ jobs:
       - name: 'Run script'
         id: 'script'
         run: |
+          jq . "${GITHUB_EVENT_PATH}"
           echo 'ERROR_MESSAGE<<MESSAGE' >> "${GITHUB_OUTPUT}"
-          jq -r '"公開日\n" + .issue.title + "\n" + .issue.body' '${{ github.event_path }}' | \
+          jq -r '"公開日\n\(.issue.title)\n\(.issue.body)"' '${{ github.event_path }}' | \
                deno --quiet run --allow-read --allow-write ./scripts/update-article.ts \
                --issueNumber '${{ github.event.issue.number }}' \
                --githubUser '${{ github.event.issue.user.login }}' \
