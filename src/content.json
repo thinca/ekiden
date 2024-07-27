@@ -1761,14 +1761,6 @@
       "issueNumber": 487
     },
     {
-      "title": "Neovimでefmの設定管理を考える",
-      "date": "2024-07-26",
-      "runner": "yasunori0418",
-      "url": "https://zenn.dev/vim_jp/articles/0012-my-efm-configs",
-      "githubUser": "yasunori0418",
-      "issueNumber": 489
-    },
-    {
       "title": "Meguro.vim #24 を開催しました",
       "date": "2024-07-29",
       "runner": "thinca",
