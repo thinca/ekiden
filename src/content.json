@@ -1791,6 +1791,14 @@
       "url": null,
       "githubUser": "peacock0803sz",
       "issueNumber": 501
+    },
+    {
+      "title": "テスト複数行test",
+      "date": "2024-08-30",
+      "runner": "thinca",
+      "url": "https://example.com/",
+      "githubUser": "thinca",
+      "issueNumber": 1
     }
   ]
 }
